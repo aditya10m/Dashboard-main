@@ -66,6 +66,29 @@ Frontend: http://localhost:5173
 
 Backend: http://localhost:5000
 
+## 🗄️ Database
+
+- MongoDB Atlas (Cloud Database)
+- Mongoose used for schema and queries
+
+## ⚡ Data Generation
+
+Run:
+GET /api/seed
+
+This generates 100+ random device records in MongoDB.
+
+## 📡 Sample API Response
+
+GET /api/devices/summary
+
+{
+  "avgTemp": 45.3,
+  "maxVibration": 78,
+  "totalFaults": 12,
+  "uptimePercentage": 82.5
+}
+
 👨‍💻 Author
 
 Aditya Goswami
